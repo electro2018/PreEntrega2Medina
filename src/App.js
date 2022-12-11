@@ -1,23 +1,17 @@
-
-//import ItemListContainer from "./components/itemListContainer/ItemListContainer";
-import Navbar from "./components/navBar/NavBar"
-
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
+import NavBar from "./components/NavBar/NavBar";
 
 function App() {
-
+  //const saludo = "Saludo que prefieran"
   return (
-    <div>
-  
-  <Navbar />
-  
-
-
-    </div>
+    <div >
+      <NavBar/>
+      <ItemListContainer greeting ="hola"/>
+   
+       </div>
   );
-  
 }
 
 export default App;
-
 
 
