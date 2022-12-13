@@ -1,12 +1,10 @@
 .container-cart{
-    width: 10%;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    
 }
-
 .bubble-counter{
     width: 30px;
     height: 30px;
@@ -18,5 +16,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
