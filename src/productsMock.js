@@ -2,36 +2,38 @@
 export const products = [
 
     {
-        name: "nike 360",
+        name: "resistencias",
         price: 20500,
         stock: 5,
-        description: "Zapatillas de ultima generacion para el deporte",
+        description: "tipos de resistencias",
         category: "deportivas",
-        img: "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669326932/free-metcon-4-zapatillas-de-entrenamiento-TQMCZg_fvia3m.png"
+        img: "https://res.cloudinary.com/dwwtypwob/image/upload/v1670986394/como-funciona-una-resistencia-electrica-3_lqqemh.png"
     },
-    {
-        name: "wilson advance",
-        price: 14500,
+    { 
+        name: "condensadores",
+        price: 20500,
         stock: 5,
-        description: "Ultra livianas y cuentan con camara de aire",
-        category: "deportivas",
-        img: "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669430010/foc364fsakkzmausrovn.jpg"
-    },
-    {
-        name: "Puma",
-        price: 19000,
-        stock: 5,
-        description: "Las clasicas zapatillas que van para cualquier momento del dia",
+        description: "tipo de condensadores",
         category: "urbanas",
-        img: "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669430165/images_lujpmr.jpg"
+        img: "https://res.cloudinary.com/dwwtypwob/image/upload/v1670986726/condensadores_u1pdzq.jpg"
     },
     {
-        name: "Jaguar",
+        name: "circuitos integrados",
         price: 17800,
         stock: 5,
-        description: "Zapatillas de ultima generacion para el deporte",
+        description: "Circuitos integrados",
         category: "urbanas",
-        img: "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669430220/rtokwmt3j03bblbfhwhb.jpg"
-    }
+        img: "https://res.cloudinary.com/dwwtypwob/image/upload/v1670988048/circuitos-integrados_t2ccch.png"
+    },
+
+    {
+        name: "rasberry pi pico",
+        price: 20500,
+        stock: 5,
+        description: "Rasberry pi pico",
+        category: "microcontroladores",
+        img: "https://res.cloudinary.com/dwwtypwob/image/upload/v1670987208/pico-top_zshhmy.jpg"
+    },
+    
 
 ]
