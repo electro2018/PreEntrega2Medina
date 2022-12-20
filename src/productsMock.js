@@ -2,6 +2,7 @@
 export const products = [
 
     {
+        id:1,
         name: "resistencias",
         price: 20500,
         stock: 5,
@@ -10,6 +11,7 @@ export const products = [
         img: "https://res.cloudinary.com/dwwtypwob/image/upload/v1670986394/como-funciona-una-resistencia-electrica-3_lqqemh.png"
     },
     { 
+        id:2,
         name: "condensadores",
         price: 20500,
         stock: 5,
@@ -18,6 +20,7 @@ export const products = [
         img: "https://res.cloudinary.com/dwwtypwob/image/upload/v1670986726/condensadores_u1pdzq.jpg"
     },
     {
+        id:3,
         name: "circuitos integrados",
         price: 17800,
         stock: 5,
@@ -27,6 +30,7 @@ export const products = [
     },
 
     {
+        id:4,
         name: "rasberry pi pico",
         price: 20500,
         stock: 5,
