@@ -11,10 +11,13 @@ import {useParams} from "react-router-dom"
 //import { useEffect } from "react"
 const ItemListContainer = () => {
   // FLAG o BANDERA
-const parametros = useParams()
- //const { categoryName } = useParams()
+//const parametros = useParams()
+const { categoryName } = useParams()
+
+console.log(categoryName)
+
   const [items, setItems] = useState([])
- const [posts, setPosts] = useState([])
+  const [posts, setPosts] = useState([])
   const [isCreated, setIsCreated] = useState(false)
   const [error, setError] = useState(null)
   const createPost = ()=>{
@@ -35,11 +38,13 @@ const parametros = useParams()
 
     }
   useEffect(() => {
-   // const productosFiltered =products.filter(productos =>productos.category===categoryName) ((resolve))
+
+    const productosFiltered = products.filter( productos =>productos.category === categoryName)
+
     const task = new Promise((resolve, reject) => {
       setTimeout(() => {
-        resolve(products)
-      }, 200)
+        resolve( categoryName ? productosFiltered : products  )
+     }, 200)
     })
 
     task
@@ -51,7 +56,8 @@ const parametros = useParams()
       })
 
     console.log("se hizo la peticion")
-  }, [])
+  }, [categoryName ])
+
   useEffect(()=>{
    const getPost = fetch("https://jsonplaceholder.typicode.com/posts") 
 
@@ -68,7 +74,7 @@ getPost
       <ItemList items={items} />
       <button onClick= {createPost}> Crear</button>
       <button  onClick={createPost} >Crear</button>
-  
+
     </div>
   )
 }

@@ -9,13 +9,12 @@ const NavBar = () => {
 
   return (
     <div className="navbar-container">
-      <div className="container-logo"><h2>Electrotienda</h2>
-        
-      </div>
+      <Link className="container-logo" to="/"><h2>Electrotienda</h2></Link>
+
       <ul className="navbar">
-      <Link className="navbar-item" to="/" >Nosotros</Link>
-        <Link className="navbar-item" to="/category/deportivas" >Productos</Link>
-        <Link className="navbar-item" to="/category/urbanas" >Contactos</Link>
+      <Link className="navbar-item" to="/" >Todas</Link>
+      <Link className="navbar-item" to="/category/analogos" >Analogos</Link>
+       <Link className="navbar-item" to="/category/digitales" >Digitales</Link>
       </ul>
       <CartWidget />
     </div>

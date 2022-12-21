@@ -7,7 +7,7 @@ export const products = [
         price: 20500,
         stock: 5,
         description: "tipos de resistencias",
-        category: "deportivas",
+        category: "analogos",
         img: "https://res.cloudinary.com/dwwtypwob/image/upload/v1670986394/como-funciona-una-resistencia-electrica-3_lqqemh.png"
     },
     { 
@@ -16,7 +16,7 @@ export const products = [
         price: 20500,
         stock: 5,
         description: "tipo de condensadores",
-        category: "urbanas",
+        category: "analogos",
         img: "https://res.cloudinary.com/dwwtypwob/image/upload/v1670986726/condensadores_u1pdzq.jpg"
     },
     {
@@ -25,7 +25,7 @@ export const products = [
         price: 17800,
         stock: 5,
         description: "Circuitos integrados",
-        category: "urbanas",
+        category: "digitales",
         img: "https://res.cloudinary.com/dwwtypwob/image/upload/v1670988048/circuitos-integrados_t2ccch.png"
     },
 
@@ -35,7 +35,7 @@ export const products = [
         price: 20500,
         stock: 5,
         description: "Rasberry pi pico",
-        category: "microcontroladores",
+        category: "digitales",
         img: "https://res.cloudinary.com/dwwtypwob/image/upload/v1670987208/pico-top_zshhmy.jpg"
     },
     
